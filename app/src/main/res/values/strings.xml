@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Joke? Err…</string>
+    <string name="instructions">Press the button for a delicious joke!</string>
+    <string name="button_text">Tell Joke</string>
+    <string name="about">About</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="progress">Looking up an awesome joke online...</string>
+    <string name="network">Need an internet connection to look up jokes!</string>
+    <string name="about_text">A simple app that, in its working, demonstrates some advanced concepts.\n
+        \n- When the button is pressed, a call is made to a Google Cloud Endpoint
+        \n- The GCE fetches data from a Java library
+        \n- The fetched data is passed on to the Android library as an Intent extra, and the library displays the joke in a new Activity\n
+        \nDeveloped as a part of the Android Developer Nanodegree</string>
+</resources>

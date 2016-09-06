@@ -1,0 +1,11 @@
+//You might want to replace with your own keystore
+
+Test Keys Keystore
+Password: 'testkeys@as'
+
+-----------------------
+
+Keys:
+
+Test Key for P4
+Password: 'testkeys@as'
