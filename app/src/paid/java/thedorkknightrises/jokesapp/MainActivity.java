@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void tellJoke(View view) {
         ConnectivityManager cm =
-                (ConnectivityManager)this.getSystemService(Context.CONNECTIVITY_SERVICE);
+                (ConnectivityManager) this.getSystemService(Context.CONNECTIVITY_SERVICE);
 
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
         boolean isConnected = activeNetwork != null &&
@@ -62,9 +62,9 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.setMessage(getString(R.string.progress));
             progressDialog.show();
             new GetJokeTask().execute(MainActivity.this, progressDialog);
-        } else Toast.makeText(MainActivity.this, getString(R.string.network), Toast.LENGTH_SHORT).show();
+        } else
+            Toast.makeText(MainActivity.this, getString(R.string.network), Toast.LENGTH_SHORT).show();
     }
-
 
 
 }
