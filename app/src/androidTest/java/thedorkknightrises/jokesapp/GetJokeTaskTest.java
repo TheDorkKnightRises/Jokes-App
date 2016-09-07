@@ -8,7 +8,7 @@ import junit.framework.TestCase;
 /**
  * Created by Samriddha Basu on 9/7/2016.
  */
-public class GetJokeTaskTest extends TestCase{
+public class GetJokeTaskTest extends TestCase {
     private Context context;
     private ProgressDialog progressDialog;
 
